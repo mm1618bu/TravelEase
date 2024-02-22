@@ -3,6 +3,9 @@ import Login from './Login';
 import ForgotPassword from './ForgotPassword';
 import ResetPassword from './ResetPassword';
 import PasscodeVerification from './PassocdeVerification';
+import UserRegistration from './UserRegistration';
+import HomePage from './HomePage';
+import TravelSearch from './TravelSearch';
 function App() {
   return (
     <div>
@@ -11,6 +14,9 @@ function App() {
       <ForgotPassword />
       <ResetPassword />
       <PasscodeVerification />
+      <UserRegistration />
+      <HomePage />
+      <TravelSearch />
     </div>
   );
 }

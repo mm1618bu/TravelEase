@@ -61,3 +61,72 @@
 .passcode-input {
   -moz-appearance: textfield;
 }
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 200px; /* Adjust as needed */
+  margin: 20px 0; /* Adjust as needed */
+}
+
+.circle-logos {
+  display: flex;
+  justify-content: space-between;
+  width: 60%; /* Adjust as needed */
+  margin: 20px 0; /* Adjust as needed */
+}
+
+.circle-logo {
+  width: 100px; /* Adjust as needed */
+}
+
+.search-box {
+  width: 60%; /* Adjust as needed */
+  padding: 10px;
+  margin: 20px 0; /* Adjust as needed */
+  font-size: 18px; /* Increase font size */
+}
+
+.wide-image {
+  width: 100%;
+  margin: 20px 0; /* Adjust as needed */
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 200px; /* Adjust as needed */
+  margin: 20px 0; /* Adjust as needed */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%; /* Adjust as needed */
+}
+
+form label {
+  margin: 10px 0; /* Adjust as needed */
+}
+
+form input, form select {
+  width: 100%; /* Adjust as needed */
+  padding: 10px;
+  margin: 10px 0; /* Adjust as needed */
+  font-size: 18px; /* Increase font size */
+}
+
+form button {
+  padding: 10px 20px; /* Adjust as needed */
+  margin: 20px 0; /* Adjust as needed */
+  font-size: 18px; /* Increase font size */
+}
